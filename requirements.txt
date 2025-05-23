@@ -1,0 +1,16 @@
+streamlit==1.30.0 # 最新の安定版を推奨
+pandas==2.1.0   # 最新の安定版を推奨
+torch==2.0.1    # 選択したモデルとの互換性を確認
+transformers==4.35.0 # 最新の安定版を推奨
+sentence-transformers==2.2.2 # e5モデルに対応するバージョン
+keybert==0.7.0
+spacy==3.7.0    # GiNZAと互換性のある最新の安定版
+# GiNZA と ja_ginza_electra モデルバンドルのインストール
+ginza # ginza本体のインストール
+# ja_ginza_electra のモデルファイル込みの.whl または.tar.gz のURLを指定
+# 例: https://github.com/megagonlabs/ginza/releases/download/v5.2.0/ja_ginza_electra-5.2.0-py3-none-any.whl
+# または https://github.com/megagonlabs/ginza/releases/download/latest/ja_ginza_electra-latest-with-model.tar.gz
+# [19, 39, 45]
+# 特定のHugging Faceモデルが必要とする依存ライブラリ (例: jarvisx17 や tohoku-nlp ベースのモデルの場合)
+fugashi
+unidic-lite
