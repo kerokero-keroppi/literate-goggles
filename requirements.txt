@@ -1,3 +1,5 @@
+python = "3.11"
+# --- ここから下が元のrequirements.txt ---
 streamlit==1.30.0
 pandas==2.1.0
 torch==2.0.1
@@ -8,5 +10,4 @@ spacy==3.7.0
 fugashi
 unidic-lite
 ginza
-# ↓↓ 以下の行を追加 (URLは最新版を確認してください) ↓↓
 https://github.com/megagonlabs/ginza/releases/download/v5.2.0/ja_ginza_electra-5.2.0-py3-none-any.whl
