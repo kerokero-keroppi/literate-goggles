@@ -1,12 +1,10 @@
-python = "3.11"
-# --- ここから下が元のrequirements.txt ---
-streamlit==1.30.0
-pandas==2.1.0
-torch==2.0.1
-transformers==4.35.0
-sentence-transformers==2.2.2
-keybert==0.7.0
-spacy==3.7.0
+streamlit>=1.30.0
+pandas>=2.2.0   # 2.1.0 -> 2.2.0以上に更新 (3.13対応のため)
+torch>=2.2.0    # 2.0.1 -> 2.2.0以上に更新 (3.13対応のため)
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+keybert>=0.7.0
+spacy>=3.7.0
 fugashi
 unidic-lite
 ginza
