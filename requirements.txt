@@ -7,6 +7,6 @@ keybert>=0.7.0
 spacy>=3.7.0
 fugashi
 unidic-lite
-ginza>=6.0.0  # <-- バージョンを更新
-# ↓↓ GiNZA v6.0.0 のモデルURLに更新 ↓↓
-https://github.com/megagonlabs/ginza/releases/download/v6.0.0/ja_ginza_electra-6.0.0-py3-none-any.whl
+ginza>=6.0.0
+# ↓↓ GiNZA v6.0.0 の "ja_ginza" モデルURLに更新 ↓↓
+https://github.com/megagonlabs/ginza/releases/download/v6.0.0/ja_ginza-6.0.0-py3-none-any.whl
