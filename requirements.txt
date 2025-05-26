@@ -1,11 +1,12 @@
 streamlit>=1.30.0
 pandas>=2.2.0
 torch>=2.2.0
-transformers>=4.35.0
+transformers==4.25.1  # <-- v5.2 と互換性のあるバージョンに固定！
 sentence-transformers>=2.2.2
 keybert>=0.7.0
-spacy>=3.7.0
+spacy>=3.7.0  # <-- spacy は比較的新しいままで試す
 fugashi
 unidic-lite
-ginza==6.0.0  # <-- バージョンを固定
-ja-ginza==6.0.0 # <-- URL を削除し、PyPI パッケージ名でバージョンを固定
+ginza==5.2.0  # <-- v5.2 に戻す
+# ↓↓ v5.2.0 の "ja_ginza_electra" URL に戻す ↓↓
+https://github.com/megagonlabs/ginza/releases/download/v5.2.0/ja_ginza_electra-5.2.0-py3-none-any.whl
