@@ -51,7 +51,7 @@ def load_pos_model_definition():
     try:
         # ja_ginza_electra が正しくインストールされていることを前提
         # requirements.txt でモデルバンドル版を指定することが理想
-        nlp_pos = spacy.load("ja_ginza") 
+        nlp_pos = spacy.load("ja_ginza_electra") 
         return nlp_pos
     except OSError:
         st.error("GiNZA ja_ginza_electra モデルが見つかりません。requirements.txtでモデルバンドル版が指定されているか確認してください。")
