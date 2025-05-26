@@ -1,12 +1,5 @@
-# packages.txt
-
-# For Rust-based packages (tokenizers, spacy-alignments)
 rustc
 cargo
-
-# For sentencepiece
 cmake
 pkg-config
-
-# General build tools (often helpful)
 build-essential
