@@ -1,13 +1,7 @@
 streamlit>=1.30.0
 pandas>=2.2.0
-torch>=2.2.0
-transformers==4.25.1
-tokenizers==0.12.1  # <-- Rust 2018 edition を使用しているバージョンに変更
-sentence-transformers>=2.2.2
-keybert>=0.7.0
-spacy>=3.7.0
-fugashi
-unidic-lite
-ginza==5.2.0
-# v5.2.0 "ja_ginza_electra" URL
-https://github.com/megagonlabs/ginza/releases/download/v5.2.0/ja_ginza_electra-5.2.0-py3-none-any.whl
+torch>=2.2.0  # transformers pipeline がPyTorchバックエンドの場合に必要
+transformers>=4.35.0 # 品詞タグ付けパイプライン用
+# tokenizers は transformers の依存関係としてインストールされることを期待
+# sentence-transformers, keybert は削除
+# spacy, ginza, fugashi, unidic-lite, ja_ginza_electra wheel は削除
