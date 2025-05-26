@@ -1,11 +1,12 @@
 streamlit>=1.30.0
-pandas>=2.2.0   # 2.1.0 -> 2.2.0以上に更新 (3.13対応のため)
-torch>=2.2.0    # 2.0.1 -> 2.2.0以上に更新 (3.13対応のため)
+pandas>=2.2.0
+torch>=2.2.0
 transformers>=4.35.0
 sentence-transformers>=2.2.2
 keybert>=0.7.0
 spacy>=3.7.0
 fugashi
 unidic-lite
-ginza
-https://github.com/megagonlabs/ginza/releases/download/v5.2.0/ja_ginza_electra-5.2.0-py3-none-any.whl
+ginza>=6.0.0  # <-- バージョンを更新
+# ↓↓ GiNZA v6.0.0 のモデルURLに更新 ↓↓
+https://github.com/megagonlabs/ginza/releases/download/v6.0.0/ja_ginza_electra-6.0.0-py3-none-any.whl
